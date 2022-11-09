@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic The Gathering - Asenat</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+   
+
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <script src="https://kit.fontawesome.com/291c342c86.js" crossorigin="anonymous"></script>
+
+ <!--  cart modal  -->
+ <div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">Comprar</button>
+        </div>
+      </div>
+    </div>
+<!--   fin del carro -->
+  
+  
+    
+<!-- header inicio  -->
+
+<header class="header">
+
+  <a href="#home" class="car-name">Gaming Store</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">productos</a>
+    </nav>
+
+    <div class="icons1">
+        <div class="cart-btn">
+        <i id="cart" class="fas fa-shopping-cart"></i>  
+          <span class ="cart-quantity">0</span>
+      </div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn"></div>
+    </div>
+
+</header>
+
+<!-- header final -->
+
+<!-- home inicio  -->
+
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <video autoplay loop muted src="./image/video1.mp4"></video>
+                <div class="content-swiper">
+                    <span>PLANESWALKER</span>
+                    <h3>Vivien
+                        <br>
+                        Nature's Avenger
+                    </h3>
+                    <a href="#products" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <video autoplay loop muted src="./image/video2.mp4"></video>
+                <div class="content-swiper">
+                    <span>PLANESWALKER</span>
+                    <h3>Liliana Vess </h3>
+                    <a href="#products" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <video autoplay loop muted src="./image/Video3.mp4"></video>
+                <div class="content-swiper">
+                    <span>PLANESWALKER</span>
+                    <h3>Kaya
+                        <br> 
+                        The Inoxerable</h3>
+                    <a href="#products" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- home final -->
+
+<!-- banner inicio  -->
+
+<section class="banner-container">
+
+    <div class="banner">
+        <video loop muted autoplay height="100%" width="100%" src="image/tarjeta.mp4" class="Video-Banner" alt="">
+        
+        </div>
+    </div>
+    
+    <div class="banner">
+        <video loop muted autoplay height="100%" width="100%" src="image/CARTA.mp4" class="Video-Banner" alt="">
+        <div class="content">
+            
+        </div>
+    </div>
+
+</section>
+
+<!-- banner final -->
+
+
+<!--  productos del carro  -->
+<div class="items-container" id="products">
+    <div class="card-1 card">
+        <span class="product-price">$200</span>
+      <img class="product-image" src= "image/lliliana.jpg" alt="">
+        <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i></button>
+          
+    </div>
+    <div class="card-2 card">
+        <span class="product-price">$150</span>
+      <img class="product-image" src="image/kaya.jpg" alt="">
+      <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i></button>
+        
+    </div>
+    <div class="card-3 card">
+      <span class="product-price">$300</span>
+      <img class="product-image" src="image/viven.jpg" alt="">
+        <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i> </i></button>
+          
+    </div>
+    <div class="card-4 card">
+        <span class="product-price">$400</span>
+      <img class="product-image" src="image/carta4.jpg" alt="">
+         <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i></button>
+        
+    </div>
+    <div class="card-5 card">
+        <span class="product-price">$500</span>
+      <img class="product-image" src="image/carta5.png" alt="">
+      <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i></button>
+      
+    </div>
+    <div class="card-6 card">
+        <span class="product-price">$700</span>
+        <img class="product-image" src="image/carta6.png" alt="">
+        <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i></button>
+        
+      </div>
+      <div class="card-7 card">
+        <span class="product-price">$700</span>
+        <img class="product-image" src="image/carta7.png" alt="">
+        <button class="add-to-cart">Add <i class="fa-solid fa-cart-shopping"></i></button>
+        
+      </div>
+      <div class="card-8 card">
+        <span class="product-price">$700</span>
+        <img class="product-image" src="image/carta8.png" alt="">
+        <button class="add-to-cart">Add<i class="fa-solid fa-cart-shopping"></i></button>
+        
+      </div>
+      
+    
+  </div>
+<!--  final del los productos del carro --> 
+
+
+<!-- Elementos de las cartas inicio  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> ELEMENTS <span>MAGIC THE GATHERING</span> </h1>
+
+    <div class="swiper review-slide">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p>Embodies the concepts of logic and technology and seeks perfection through knowledge.</p>
+                <div class="user">
+                    <img src="image/water1.png" alt="">
+                    <div class="info">
+                        <h3>Water</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>It is drawn from the power of forests and embodies the principles of instinct and interdependence.</p>
+
+                <div class="user">
+                    <img src="image/forest1.jpg" alt="">
+                    <div class="info">
+                        <h3>forest</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p> It is drawn from the plains and embodies the principles of morality and order</p>
+                <div class="user">
+                    <img src="image/W.png" alt="">
+                    <div class="info">
+                        <h3>Light</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>It is drawn from the power of swamps and embodies the principles of parasitism and amorality.</p>
+                <div class="user">
+                    <img src="image/dead1.png" alt="">
+                    <div class="info">
+                        <h3>Death</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+                        <div class="swiper-slide slide">
+                <p>It is drawn from the mountains and embodies the principles of impulse and chaos. </p>
+                <div class="user">
+                    <img src="image/fire1.png" alt="">
+                    <div class="info">
+                        <h3>Fire</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Elementos de las cartas final-->
+
+
+<!-- footer inicio  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Venta de cartas de Magic</p>
+        </div>
+
+        <div class="box">
+            <h3>category</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Fire </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Forest </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Death </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Light </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#products"> <i class="fas fa-arrow-right"></i> products </a>
+        </div>
+
+       
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/tukekedigital1" target="_blank" class="fab fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/mlcapote/" target="_blank" class="fab fa-linkedin"></a>
+        <a href="https://www.instagram.com/tukekedigital/" target="_blank" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit"> &copy; Hecho con <a href="#" class="fas fa-heart"> </a> <span> Por Maria Laura</span>
+        
+    </div>
+    
+</section>
+
+<!-- footer final -->
+
+<!--Termine Wiiiii :D-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
